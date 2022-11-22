@@ -1,0 +1,92 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "NT Infotech",
+      "empCount": "5500",
+      "revenue": "2500000",
+      "address": "1st street\nchennai\npin 600048",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "NT Infotech gmdt",
+      "empCount": "5500",
+      "revenue": "25000",
+      "address": "1st street\nchennai\npin 600048",
+      "isActive": true
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 3
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 4
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 5
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 6
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 7
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 8
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 9
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 10
+    },
+    {
+      "name": "NT Infotech",
+      "empCount": "1000",
+      "revenue": "2000",
+      "address": "test",
+      "isActive": true,
+      "id": 1
+    }
+  ]
+}

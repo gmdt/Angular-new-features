@@ -1,0 +1,41 @@
+<form class="popup-form" [formGroup]="companyForm">
+  <mat-form-field appearance="fill">
+    <mat-label> ID</mat-label>
+    <input matInput placeholder="ID" formControlName="id" />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label> Name</mat-label>
+    <input matInput placeholder="Name" formControlName="name" />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label> Employee count</mat-label>
+    <input matInput placeholder="Emp count" formControlName="empCount" />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Revenue </mat-label>
+    <input matInput placeholder="Revenue" formControlName="revenue" />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Address</mat-label>
+    <textarea
+      matInput
+      placeholder="Address"
+      formControlName="address"
+    ></textarea>
+  </mat-form-field>
+
+  <section class="example-section">
+    <mat-checkbox class="example-margin"
+      >Is active
+      <input type="checkbox" formControlName="isActive" />
+    </mat-checkbox>
+  </section>
+  <br />
+  <div>
+    <button mat-raised-button color="primary" (click)="saveCompany()">
+      Save
+    </button>
+    |
+    <a mat-raised-button color="accent" (click)="closePopup()">Close</a>
+  </div>
+</form>
